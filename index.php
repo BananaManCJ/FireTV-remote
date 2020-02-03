@@ -4,9 +4,9 @@ error_reporting(-1);
 
 
 if (isset($_GET["key"])){
-exec('"C:\Program Files (x86)\Android\android-sdk\platform-tools\adb" connect 192.168.178.23');
-$key = (int) $_GET["key"];
-exec('"C:\Program Files (x86)\Android\android-sdk\platform-tools\adb" shell input keyevent '.$key,$output,$test);
+exec('"C:\Program Files\Android\platform-tools\adb" connect 10.0.0.78:5555');
+$key = $_GET["key"];
+exec('"C:\Program Files\Android\platform-tools\adb" shell input keyevent '.$key,$output,$test);
 }
 
 ?>
@@ -52,26 +52,26 @@ exec('"C:\Program Files (x86)\Android\android-sdk\platform-tools\adb" shell inpu
         }
 
         .middle {
-            background: aquamarine;
+            background: white;
         }
         .bottom-left {
-            background: aquamarine;
+            background: white;
             border-top-right-radius: 100%;
             border-bottom-left-radius: 20%;
         }
         .bottom-right {
-            background: aquamarine;
+            background: white;
             border-top-left-radius: 100%;
             border-bottom-right-radius: 20%;
         }
 
         .top-left {
-            background: aquamarine;
+            background: white;
             border-bottom-right-radius: 100%;
             border-top-left-radius: 20%;
         }
         .top-right {
-            background: aquamarine;
+            background: white;
             border-bottom-left-radius: 100%;
             border-top-right-radius: 20%;
         }
@@ -80,7 +80,7 @@ exec('"C:\Program Files (x86)\Android\android-sdk\platform-tools\adb" shell inpu
             height: 0;
             border-style: solid;
             border-width: 0 100px 200px 100px;
-            border-color: transparent transparent #007bff transparent;
+            border-color: transparent transparent #fc4c02 transparent;
 
         }
 
@@ -89,7 +89,7 @@ exec('"C:\Program Files (x86)\Android\android-sdk\platform-tools\adb" shell inpu
             height: 0;
             border-style: solid;
             border-width: 200px 100px 0 100px;
-            border-color: #007bff transparent transparent transparent;
+            border-color: #fc4c02 transparent transparent transparent;
         }
 
         .left {
@@ -97,7 +97,7 @@ exec('"C:\Program Files (x86)\Android\android-sdk\platform-tools\adb" shell inpu
             height: 0;
             border-style: solid;
             border-width: 100px 200px 100px 0;
-            border-color: transparent #007bff transparent transparent;
+            border-color: transparent #fc4c02 transparent transparent;
 
         }
 
@@ -106,7 +106,7 @@ exec('"C:\Program Files (x86)\Android\android-sdk\platform-tools\adb" shell inpu
             height: 0;
             border-style: solid;
             border-width: 100px 0 100px 200px;
-            border-color: transparent transparent transparent #007bff;
+            border-color: transparent transparent transparent #fc4c02;
         }
     </style>
 </head>
