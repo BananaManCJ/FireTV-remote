@@ -16,7 +16,7 @@ exec('"C:\Program Files\Android\platform-tools\adb" shell input keyevent '.$key,
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <style>
         html,body {
-            background-color:#444;
+            background-color: gray;
         }
         body {
             display: flex;
@@ -43,7 +43,7 @@ exec('"C:\Program Files\Android\platform-tools\adb" shell input keyevent '.$key,
             height: 100%;
             width:100%;
             text-align: center;
-            color: white;
+            color: #fc4c02;
             font-size: 2em
         }
         .keys .full {
@@ -113,19 +113,19 @@ exec('"C:\Program Files\Android\platform-tools\adb" shell input keyevent '.$key,
 <body>
 <div class="keys">
     <div class="row">
-        <a href="" class="full top-left"></a>
-        <a href="?key=19" class="up"></a>
-        <a href="" class="full top-right"></a>
+        <a href="?key=KEYCODE_MENU" class="full top-left"><i class="fa fa-navicon"></i></a>
+        <a href="?key=KEYCODE_DPAD_UP" class="up"></a>
+        <a href="key=KEYCODE_MEDIA_PLAY_PAUSE" class="full top-right"><i class="fa fa-play"><i/></a>
     </div>
     <div class="row">
-        <a href="?key=21" class="left"></a>
-        <a href="?key=66" class="full middle"></a>
-        <a href="?key=22" class="right"></a>
+        <a href="?key=KEYCODE_DPAD_LEFT" class="left"></a>
+        <a href="?key=KEYCODE_DPAD_CENTER" class="full middle"></a>
+        <a href="?key=KEYCODE_DPAD_RIGHT" class="right"></a>
     </div>
     <div class="row">
-        <a href="?key=4" class="full bottom-left"><i class="fa fa-undo"></i></a>
-        <a href="?key=20" class="down"></a>
-        <a href="?key=3" class="full bottom-right"><i class="fa fa-home"></i></a>
+        <a href="?key=KEYCODE_HOME" class="full bottom-left"><i class="fa fa-undo"></i></a> //?key=4
+        <a href="?key=KEYCODE_DPAD_DOWN" class="down"></a>
+        <a href="?key=KEYCODE_BACK" class="full bottom-right"><i class="fa fa-home"></i></a>
     </div>
     <!-- 23 = enter -->
 </div>
