@@ -115,11 +115,11 @@ exec('"C:\Program Files\Android\platform-tools\adb" shell input keyevent '.$key,
     <div class="row">
         <a href="?key=KEYCODE_MENU" class="full top-left"><i class="fa fa-navicon"></i></a>
         <a href="?key=KEYCODE_DPAD_UP" class="up"></a>
-        <a href="key=KEYCODE_MEDIA_PLAY_PAUSE" class="full top-right"><i class="fa fa-play"><i/></a>
+        <a href="key=KEYCODE_MEDIA_PLAY_PAUSE" class="full top-right"><i class="fa fa-play"></i></a>
     </div>
     <div class="row">
         <a href="?key=KEYCODE_DPAD_LEFT" class="left"></a>
-        <a href="?key=KEYCODE_DPAD_CENTER" class="full middle"></a>
+        <a href="?key=KEYCODE_DPAD_CENTER" class="full middle"><i class="fa fa-bullseye"></i></a>
         <a href="?key=KEYCODE_DPAD_RIGHT" class="right"></a>
     </div>
     <div class="row">
