@@ -16,7 +16,7 @@ exec('"C:\Program Files\Android\platform-tools\adb" shell input keyevent '.$key,
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <style>
         html,body {
-            background-color:#111;
+            background-color:#444;
         }
         body {
             display: flex;
@@ -43,7 +43,7 @@ exec('"C:\Program Files\Android\platform-tools\adb" shell input keyevent '.$key,
             height: 100%;
             width:100%;
             text-align: center;
-            color: black;
+            color: white;
             font-size: 2em
         }
         .keys .full {
@@ -52,26 +52,26 @@ exec('"C:\Program Files\Android\platform-tools\adb" shell input keyevent '.$key,
         }
 
         .middle {
-            background: white;
+            background: black;
         }
         .bottom-left {
-            background: white;
+            background: black;
             border-top-right-radius: 100%;
             border-bottom-left-radius: 20%;
         }
         .bottom-right {
-            background: white;
+            background: black;
             border-top-left-radius: 100%;
             border-bottom-right-radius: 20%;
         }
 
         .top-left {
-            background: white;
+            background: black;
             border-bottom-right-radius: 100%;
             border-top-left-radius: 20%;
         }
         .top-right {
-            background: white;
+            background: black;
             border-bottom-left-radius: 100%;
             border-top-right-radius: 20%;
         }
