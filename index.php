@@ -119,7 +119,7 @@ exec('"C:\Program Files\Android\platform-tools\adb" shell input keyevent '.$key,
     </div>
     <div class="row">
         <a href="?key=KEYCODE_DPAD_LEFT" class="left"></a>
-        <a href="?key=KEYCODE_DPAD_CENTER" class="full middle"><i class="fa fa-bullseye"></i></a>
+        <a href="?key=KEYCODE_DPAD_CENTER" class="full middle"><i class="fa fa-crosshairs"></i></a>
         <a href="?key=KEYCODE_DPAD_RIGHT" class="right"></a>
     </div>
     <div class="row">
